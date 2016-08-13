@@ -1,77 +1,22 @@
 ---
 layout: post
-title: "Welcome to Nice Blog"
-subtitle: "A simple Jekyll blog theme."
+title: "欢迎来到 Mixbox Network 官方博客"
+subtitle: "Mixbox Network 官方博客."
 date: 2016-03-30
-author: Benjamin
+author: Jason Li
 category: Jekyll
-tags: jekyll github blog
+tags: blog
 finished: true
 ---
 
 ## Welcome
 
-I think many blog themes are over designed, so I created this one. 
+我们是一家互联网教育公司。我们目前在，
 
-Just for using, not showing off.
+- 运营《奴隶社会》公众号，50w粉丝，名校、高端职场人聚集地
 
-## Nice Blog
+- 创办中国第一所个性化小学：一土学校
 
-A Simple Jekyll Blog Theme.
+- 运营线上家长收费社区《一土终身学习者》社区，1919加入社区费，2天完成1000人入驻
 
-[Demo](http://benjaminblog.ml/Nice_Blog)
-
-![index-page](https://itisbenjamin.github.io/Nice_Blog/img/blog/index.png)
-
-Introduce yourself in `About` page  :
-![about-page](https://itisbenjamin.github.io/Nice_Blog/img/blog/about.png)
-
-And you can turn on or off your skills tree in `_config.yml` :  
-![skills-tree](https://itisbenjamin.github.io/Nice_Blog/img/blog/skillstree.png)
-
-Posts will be listed by years in `Archive` page:  
-![archive-page](https://itisbenjamin.github.io/Nice_Blog/img/blog/archive.png)
-
-Post will be listed by categories in `Category` page:  
-![category-page](https://itisbenjamin.github.io/Nice_Blog/img/blog/category.png)
-
-Post will be listed by tags in `Tags` page:  
-![tags-page](https://itisbenjamin.github.io/Nice_Blog/img/blog/tags.png)
-
-You can put your `PGP` publickey in `Contact` page:  
-![contact-page](https://itisbenjamin.github.io/Nice_Blog/img/blog/contact.png)
-
-Now you have a `404` page and it will jump back to `index` page itself:  
-![404-page](https://itisbenjamin.github.io/Nice_Blog/img/blog/404.png)
-
-If you add `finshed: true` in your post header, then an `EOF` container will show under your post like this:  
-<div class="eof"></div>
-
-Or it will show `TBC`:   
-<div class="tbc"></div>
-
-## How to use
-
-Star it, fork it, and download it.
-
-Change the settings in `_config.yml` file and then you can use this theme.
-
-Easy, right? 
-
-If you wanna do more, then change whatever you want. But first, you should know what you are doing. 
-
-If you make all codes a mess, do not worry, just come back and download again.
-
-Have fun.
-
-## Author
-
-A normal person just wanna see this world.
-
-<i class="fa fa-twitter"></i>&nbsp;&nbsp;[Twitter](https://twitter.com/itisbenjamin1)
-
-## License
-
-Use MIT License.
-
-
+想要了解更多，赶紧关注我们的公众号，多看看近期的文章哦：）
