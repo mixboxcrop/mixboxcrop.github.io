@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+body {
+  position: relative; }
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  background: #fff; }
+
+.nav1 {
+  display: none; }
+
+.header {
+  width: 70%;
+  height: 40px;
+  padding: 20px 15%;
+  background: #fff;
+  overflow: hidden;
+  position: fixed;
+  top: 0; }
+  .header .navbar {
+    display: none; }
+  .header .nav2 {
+    overflow: hidden;
+    line-height: 40px;
+    margin-left: 15%;
+    width: 70%;
+    float: left; }
+    .header .nav2 li {
+      float: left;
+      margin: 0 3%;
+      width: 17%; }
+      .header .nav2 li a:hover {
+        color: #28a7e1;
+        border-bottom: 1px solid #28a7e1; }
+  .header .logo {
+    width: 100px;
+    height: 40px;
+    float: left;
+    background: url("../img/logo.gif") no-repeat;
+    background-size: 100%; }
+
+.main {
+  padding-top: 80px; }
+  .main .flex-control-nav {
+    width: 30%;
+    position: absolute;
+    bottom: 0px;
+    left: 34%;
+    text-align: center; }
+  .main .flex-control-paging li a {
+    width: 6px;
+    height: 6px; }
+  .main .flexslider .slides > li {
+    position: relative; }
+    .main .flexslider .slides > li p {
+      width: 20%;
+      height: 9%;
+      position: absolute; }
+      .main .flexslider .slides > li p span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url("../img/app.gif") no-repeat;
+        background-size: 100%; }
+    .main .flexslider .slides > li .slider1-btn {
+      top: 58%;
+      left: 56%;
+      border-radius: 30px;
+      background: #28a7e1; }
+    .main .flexslider .slides > li .slider2-btn {
+      top: 50%;
+      left: 54%;
+      border-radius: 8px;
+      border: 1px solid #fff; }
+    .main .flexslider .slides > li .slider3-btn {
+      top: 60%;
+      left: 58%;
+      border-radius: 30px;
+      border: 1px solid #fff; }
+    .main .flexslider .slides > li .slider4-btn {
+      top: 63%;
+      left: 10%;
+      border-radius: 30px;
+      border: 1px solid #fff; }
+    .main .flexslider .slides > li .slider5-btn {
+      top: 63%;
+      left: 33%;
+      border-radius: 30px; }
+      .main .flexslider .slides > li .slider5-btn span {
+        background: url("../img/google.gif") no-repeat;
+        background-size: 100%; }
+    .main .flexslider .slides > li .slider6-btn {
+      top: 56%;
+      left: 52%;
+      border-radius: 30px;
+      background: #fd5e5f; }
+  .main .title {
+    color: #28a7e1;
+    text-align: center; }
+  .main .team {
+    padding-top: 80px; }
+    .main .team .description {
+      text-align: center;
+      line-height: 30px;
+      padding: 20px 0; }
+    .main .team .photo {
+      width: 80%;
+      padding-bottom: 5%;
+      margin: 0 auto;
+      border-bottom: 1px solid #ccc;
+      overflow: hidden; }
+      .main .team .photo dl {
+        width: 16%;
+        float: left;
+        margin: 1% 2%; }
+        .main .team .photo dl img {
+          width: 100%; }
+        .main .team .photo dl .name {
+          font-size: 14px;
+          margin-top: 5px; }
+        .main .team .photo dl .job {
+          font-size: 10px;
+          color: #333; }
+  .main .client {
+    width: 80%;
+    margin: 30px auto; }
+    .main .client ul {
+      overflow: hidden; }
+      .main .client ul li {
+        width: 16%;
+        float: left;
+        margin: 2%;
+        background: #f7f7f7; }
+        .main .client ul li a {
+          display: block;
+          height: 100%;
+          background: #f7f7f7; }
+          .main .client ul li a:hover {
+            background: #28a7e1; }
+        .main .client ul li img {
+          width: 100%; }
+
+.footer {
+  background: #3c3c3c; }
+  .footer .contact {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2% 0;
+    background: #3c3c3c;
+    border-bottom: 1px solid #2b2b2b; }
+    .footer .contact .title {
+      color: #fff;
+      text-align: center; }
+    .footer .contact ul {
+      overflow: hidden;
+      width: 20%;
+      margin: 10px auto; }
+      .footer .contact ul li {
+        width: 23%;
+        border-radius: 50%;
+        float: left;
+        margin: 0 5%;
+        background: red; }
+        .footer .contact ul li:nth-child(1) {
+          background: #d4261d; }
+        .footer .contact ul li:nth-child(2) {
+          background: #3cab34; }
+        .footer .contact ul li:nth-child(3) {
+          background: #23a4db; }
+        .footer .contact ul li img {
+          width: 50%;
+          margin: 26%; }
+  .footer .copy {
+    text-align: center;
+    padding: 1% 0;
+    font-size: 14px;
+    color: #666; }
+
+@media screen and (max-width: 320px) {
+  .nav1 {
+    width: 40%;
+    overflow: hidden;
+    line-height: 40px;
+    position: fixed;
+    min-height: 568px;
+    right: 0;
+    margin: 0;
+    background: #ccc;
+    display: block; }
+    .nav1 li {
+      float: left;
+      text-align: center;
+      width: 90%;
+      margin-left: 5%;
+      border-bottom: 1px solid #aaa; }
+
+  .header {
+    width: 90%;
+    padding: 20px 5%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid #ccc; }
+    .header .navbar {
+      position: absolute;
+      right: 5%;
+      top: 27px;
+      width: 25px;
+      display: block; }
+    .header .nav2 {
+      display: none; }
+
+  .main {
+    padding-top: 80px; }
+    .main .flex-direction-nav li a {
+      height: 22%;
+      width: 25px;
+      background-size: 90%;
+      top: 50%; }
+    .main .team .photo dl {
+      width: 29%; }
+    .main .team .description {
+      text-align: left;
+      text-indent: 2em;
+      line-height: 30px;
+      padding: 30px 5%; }
+
+  .footer .contact ul {
+    width: 37%; }
+  .footer .copy {
+    font-size: 10px; } }
